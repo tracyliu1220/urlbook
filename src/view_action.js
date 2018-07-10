@@ -3,8 +3,9 @@ const path = require('path')
 const remote = electron.remote
 
 
-//var active_chap = 0
-//var active_subchap = 0
+// var active_chap = -1
+// var active_subchap_chap = -1
+// var active_subchap_subchap = -1
 
 function clickbar_chap (target) {
   //clear previous active
@@ -32,13 +33,14 @@ function clickbar_chap (target) {
 
 
 function clickbar_subchap (target_chap, target_subchap) {
-  if(active_subchap != -1){
-    var pre_subchap = document.getElementById('chap_'+active_chap+'_subchap_'+active_subchap)
+  if(active_subchap_chap != -1){
+    var pre_subchap = document.getElementById('chap_'+active_subchap_chap+'_subchap_'+active_subchap_subchap)
     pre_subchap.className = ""
   }
   var subchap = document.getElementById('chap_'+target_chap+'_subchap_'+target_subchap)
   subchap.className = "active"
-  active_subchap = target_subchap
+  active_subchap_chap = target_chap
+  active_subchap_subchap = target_subchap
   var iframe = document.getElementById('iframe')
   iframe.src = current_book.chaps[target_chap].subchaps[target_subchap].link
 }
