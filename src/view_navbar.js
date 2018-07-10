@@ -1,10 +1,10 @@
 
-
+//waves-effect waves-grey
 for (i = 0; i < current_book.chaps.length; i ++) {
   if(i == active_chap)
-    document.write('<li class="bold active"><a id="chap_'+i+'" class="waves-effect waves-grey">'+current_book.chaps[i].title+'</a>')
+    document.write('<li id="chap'+i+'" class="bold active"><a href="#">'+current_book.chaps[i].title+'</a>')
   else
-    document.write('<li class="bold"><a id="chap_'+i+'" class="waves-effect waves-grey">'+current_book.chaps[i].title+'</a>')
+    document.write('<li id="chap'+i+'" class="bold"><a href="#" onclick="return clickbar_chap()">'+current_book.chaps[i].title+'</a>')
   if(current_book.chaps[i].subchaps.length > 0) {
     if(i == active_chap)
       document.write('<div id="chap_state_'+i+'" class="active"><ul>')
