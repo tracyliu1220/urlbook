@@ -1,0 +1,15 @@
+{
+  "name": "urlbook-app",
+  "version": "1.0.0",
+  "description": "an app to organize urls as books",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Tracy Liu",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "2.0.4"
+  }
+}
