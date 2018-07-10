@@ -2,99 +2,34 @@
 
 <head>
   <title>view</title>
-  <!-- Compiled and minified CSS -->
+
+  <!--import materialize-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-  <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+
+  <!--import user data-->
+  <script src="view_header.js"></script>
 
 </head>
 
 <body>
-  <script src="view.js"></script>
 
-
-<div>
+  <!--navbar-->
   <div class="container"><a href="#" data-target="nav-mobile" class="top-nav sidenav-trigger waves-effect waves-light circle hide-on-large-only"><i class="material-icons">menu</i></a></div>
-        <ul id="nav-mobile" class="sidenav sidenav-fixed">
-
-          <li class="bold"><a href="about.html" class="waves-effect waves-teal">item</a></li>
-          <li class="bold"><a href="getting-started.html" class="waves-effect waves-teal">item</a></li>
-          <li class="no-padding">
-            <ul class="collapsible collapsible-accordion">
-              <li class="bold active"><a class="collapsible-header waves-effect waves-teal">item</a>
-                <div class="active">
-                  <ul>
-                    <li class="active"><a>subitem</a></li>
-                    <li><a>subitem</a></li>
-                    <li><a>subitem</a></li>
-                    <li><a>subitem</a></li>
-                    <li><a>subitem</a></li>
-                    <li><a>subitem</a></li>
-                    <li><a>subitem</a></li>
-                    <li><a>subitem</a></li>
-                    <li><a>subitem</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li class="bold"><a class="collapsible-header waves-effect waves-teal">item</a>
-                <div class="collapsible-body">
-                  <ul>
-                    <li><a>subitem</a></li>
-                    <li><a>subitem</a></li>
-                    <li><a>subitem</a></li>
-                    <li><a>subitem</a></li>
-                    <li><a>subitem</a></li>
-                    <li><a>subitem</a></li>
-                    <li><a>subitem</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li class="bold"><a class="collapsible-header waves-effect waves-teal">item</a>
-                <div class="collapsible-body">
-                  <ul>
-                    <li><a>subitem</a></li>
-                    <li><a>subitem</a></li>
-                    <li><a>subitem</a></li>
-                    <li><a>subitem</a></li>
-                    <li><a>subitem</a></li>
-                    <li><a>subitem</a></li>
-                    <li><a>subitem</a></li>
-                    <li><a>subitem</a></li>
-                    <li><a>subitem</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li class="bold"><a class="collapsible-header waves-effect waves-teal">item</a>
-                <div class="collapsible-body">
-                  <ul>
-                    <li><a>subitem</a></li>
-                    <li><a>subitem</a></li>
-                    <li><a>subitem</a></li>
-                    <li><a>subitem</a></li>
-                    <li><a>subitem</a></li>
-                    <li><a>subitem</a></li>
-                    <li><a>subitem</a></li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </li>
-          <li class="bold"><a href="mobile.html" class="waves-effect waves-teal">item</a></li>
-          <li class="bold"><a href="showcase.html" class="waves-effect waves-teal">item</a></li>
-          <li class="bold"><a href="themes.html" class="waves-effect waves-teal">item</a></li>
-        </ul>
-    </div>
+    <ul id="nav-mobile" class="sidenav sidenav-fixed">
+      <li class="bold"><div>　</div></li>
+      <li class="bold"><div style="background-color:#33A6B8; text-align: center; color: #FFFFFF; font-size: large">Book 1</div></li>
+      <li class="bold"><div>　</div></li>
+      <script src="view_navbar.js"></script>
+    </ul>
   </div>
 
+  <!--loadpage-->
   <div style="margin-left: 300px; margin-top: 0; margin-bottom: 0; margin-right: 0;">
-
-      <iframe align="right" src="https://hackmd.io/s/Byqyltl7m" id="myIframe" scrolling="auto" frameborder="0"
-    style="position: relative; height: 100%; width: 100%;">
+    <script>
+      document.write('<iframe align="right" src="'+current_book.chaps[0].link+'" id="myIframe" scrolling="auto" frameborder="0" style="position: relative; height: 100%; width: 100%;">')
+    </script>
   </div>
-
-
-
-
 
 </body>
 
