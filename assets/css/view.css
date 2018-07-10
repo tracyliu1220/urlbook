@@ -3,3 +3,18 @@
   color: #FFFFFF;
   font-size: large
 }
+
+.welcome{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:200px;
+  height:150px;
+  background-color: #FFFFFF;
+  text-align: center;
+  color: #33A6B8;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  font-size: 300%;
+}
