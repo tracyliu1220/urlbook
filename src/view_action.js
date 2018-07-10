@@ -32,9 +32,10 @@ function clickbar_chap (target) {
 
 
 function clickbar_subchap (target_chap, target_subchap) {
-
-  var pre_subchap = document.getElementById('chap_'+active_chap+'_subchap_'+active_subchap)
-  pre_subchap.className = ""
+  if(active_subchap != -1){
+    var pre_subchap = document.getElementById('chap_'+active_chap+'_subchap_'+active_subchap)
+    pre_subchap.className = ""
+  }
   var subchap = document.getElementById('chap_'+target_chap+'_subchap_'+target_subchap)
   subchap.className = "active"
   active_subchap = target_subchap

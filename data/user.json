@@ -3,7 +3,7 @@
     "name": "Tracy Liu",
     "books": [{
       "title": "book 1",
-      "color": "teal lighten-1",
+      "color": "#33A6B8",
       "chaps": [{
         "title": "urlbook",
         "subchaps": [{
@@ -35,7 +35,7 @@
       }]
     },{
       "title": "book 2",
-      "color": "grey",
+      "color": "#78C2C4",
       "chaps": [{
         "title": "chap 3",
         "link": "https://hackmd.io/s/BkTiTLiFG",
