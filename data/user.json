@@ -3,49 +3,39 @@
     "name": "Tracy Liu",
     "books": [{
       "title": "book 1",
-      "color": "#33A6B8",
+      "color": "teal lighten-1",
       "chaps": [{
-        "title": "chap 1",
-        "link": "https://hackmd.io/s/BkTiTLiFG",
+        "title": "urlbook",
         "subchaps": [{
-          "title": "subchap 1",
-          "link": "https://hackmd.io/s/Byqyltl7m"
-          },{
-          "title": "subchap 2",
-          "link": "https://hackmd.io/s/Byqyltl7m"
+        "title": "root",
+        "link": "https://hackmd.io/s/BkTiTLiFG"
+        },{
+          "title": "doc",
+          "link": "https://imfly.gitbooks.io/electron-docs-gitbook/content/zh-TW/tutorial/quick-start.html"
           }]
       },{
-        "title": "chap 2",
-        "link": "https://hackmd.io/s/Byqyltl7m",
+        "title": "Competitive Programming Notes",
         "subchaps": [{
-          "title": "subchap 3",
-          "link": "https://hackmd.io/s/Byqyltl7m"
+          "title": "final project",
+          "link": "https://hackmd.io/s/H18HLrZqG#"
           },{
-          "title": "subchap 4",
-          "link": "https://hackmd.io/s/Byqyltl7m"
+          "title": "amoshyc's CPsolution",
+          "link": "https://amoshyc.github.io/CPsolution/index.html"
           }]
       },{
-        "title": "chap 3",
-        "link": "https://hackmd.io/s/BkTiTLiFG",
-        "subchaps": []
-      },{
-        "title": "chap 4",
-        "link": "https://hackmd.io/s/BkTiTLiFG",
-        "subchaps": []
-      },{
-        "title": "chap 5",
-        "link": "https://hackmd.io/s/BkTiTLiFG",
+        "title": "NCTU+ note roots",
+        "link": "https://hackmd.io/s/SJzK2LoZ7",
         "subchaps": [{
-          "title": "subchap 9",
-          "link": "https://hackmd.io/s/Byqyltl7m"
+          "title": "NCTU+ Back End note",
+          "link": "https://hackmd.io/s/r1o2k63bX"
           },{
-          "title": "subchap 10",
-          "link": "https://hackmd.io/s/Byqyltl7m"
+          "title": "atom editor",
+          "link": "https://foreachsam.github.io/book-editor-atom/book/index.html"
           }]
       }]
     },{
       "title": "book 2",
-      "color": "#566C73",
+      "color": "grey",
       "chaps": [{
         "title": "chap 3",
         "link": "https://hackmd.io/s/BkTiTLiFG",
