@@ -18,7 +18,9 @@
   <div class="container"><a href="#" data-target="nav-mobile" class="top-nav sidenav-trigger waves-effect waves-light circle hide-on-large-only"><i class="material-icons">menu</i></a></div>
     <ul id="nav-mobile" class="sidenav sidenav-fixed">
       <li class="bold"><div>　</div></li>
-      <li class="bold"><div style="background-color:#33A6B8; text-align: center; color: #FFFFFF; font-size: large">Book 1</div></li>
+      <script>
+        document.write('<li class="bold"><div style="background-color:#33A6B8; text-align: center; color: #FFFFFF; font-size: large">'+current_book.title+'</div></li>')
+      </script>
       <li class="bold"><div>　</div></li>
       <script src="view_navbar.js"></script>
     </ul>
@@ -27,9 +29,11 @@
   <!--loadpage-->
   <div style="margin-left: 300px; margin-top: 0; margin-bottom: 0; margin-right: 0;">
     <script>
-      document.write('<iframe align="right" src="'+current_book.chaps[0].link+'" id="myIframe" scrolling="auto" frameborder="0" style="position: relative; height: 100%; width: 100%;">')
+      document.write('<iframe id="iframe" align="right" src="'+loading_url+'" id="myIframe" scrolling="auto" frameborder="0" style="position: relative; height: 100%; width: 100%;">')
     </script>
   </div>
+
+  <script src="view.js"></script>
 
 </body>
 
