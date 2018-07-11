@@ -16,3 +16,16 @@
   display: flex;
   justify-content: flex-end;
 }
+
+.welcome{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background-color: #FFFFFF;
+  text-align: center;
+  color: #B0BEC5;
+  position: relative;
+  width: 100%;
+  height: 85%;
+  font-size: large;
+}

@@ -1,11 +1,5 @@
-const electron = require('electron')
 const path = require('path')
 const remote = electron.remote
-
-
-// var active_chap = -1
-// var active_subchap_chap = -1
-// var active_subchap_subchap = -1
 
 function clickbar_chap (target) {
   //clear previous active
