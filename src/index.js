@@ -22,3 +22,8 @@ function screen() {
     window.maximize();
   }
 }
+
+function quit(){
+  var window = remote.getCurrentWindow();
+  window.close();
+}
