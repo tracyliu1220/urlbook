@@ -21,26 +21,29 @@
 
   <!--navbar-->
   <div class="navbar-fixed dragable">
-    <nav>
+    <nav class="nav-extended">
       <div class="nav-wrapper blue-grey lighten-3">
         <a class="brand-logo" style="margin-left: 50px">URLBOOKS</a>
         <ul class="right hide-on-med-and-down">
-          <li class="active undragable"><a href="#">BOOKS</a></li>
-          <li class="undragable"><a href="create.html">NEW</a></li>
+          <li class="undragable"><a href="index.html">BOOKS</a></li>
+          <li class="active undragable"><a href="badges.html">NEW</a></li>
           <li class="undragable"><a id="screen" onclick="return screen()">FULLSCREEN</a></li>
           <li style="margin-left: 20px; margin-right: 20px">|</li>
           <li class="undragable"><a onclick="return quit()" style="margin-right: 30px">QUIT</a></li>
         </ul>
       </div>
+      <div class="nav-content blue-grey lighten-3">
+      <ul class="tabs tabs-transparent">
+        <li class="tab"><a class="active" href="#test1">create</a></li>
+        <li class="tab"><a href="#test2">import</a></li>
+      </ul>
+    </div>
     </nav>
   </div>
 
-  <!--display books-->
-  <script src="index_displaybooks.js"></script>
 
-  <!--actions-->
   <script src="index.js"></script>
-
+  
 </body>
 
 </html>
