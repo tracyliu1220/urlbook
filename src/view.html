@@ -22,14 +22,12 @@
   <!--navbar-->
   <div class="container"><a href="#" data-target="nav-mobile" class="top-nav sidenav-trigger waves-effect waves-light circle hide-on-large-only"><i class="material-icons">menu</i></a></div>
     <ul id="nav-mobile" class="sidenav sidenav-fixed">
-      <!--li class="bold" style="margin-top: 10px; margin-left: 5px">
-        <i class="small material-icons" style="color: #33A6B8">chevron_left</i>
-        <i class="small material-icons" style="color: #33A6B8">crop_5_4</i>
-      </li-->
       <li class="bold" style="margin-top: 10px; margin-left: 5px">
         <div class="card-action button-container" style="padding-right: 0px;">
-          <a onclick="return back()" class="waves-effect waves-grey btn-flat"><i class="small material-icons" style="color: #33A6B8">chevron_left</i></a>
-          <a onclick="return screen()" class="waves-effect waves-grey btn-flat"><i class="small material-icons" style="color: #33A6B8">crop_5_4</i></a>
+          <script>
+            document.write('<a onclick="return back()" class="waves-effect waves-grey btn-flat"><i class="small material-icons" style="color: #'+color+'">chevron_left</i></a>')
+            document.write('<a onclick="return screen()" class="waves-effect waves-grey btn-flat"><i class="small material-icons" style="color: #'+color+'">crop_5_4</i></a>')
+        </script>
         </div>
       </li>
       <script>
