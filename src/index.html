@@ -20,15 +20,16 @@
 <body>
 
   <!--navbar-->
-  <div class="navbar-fixed">
+  <div class="navbar-fixed dragable">
     <nav>
       <div class="nav-wrapper blue-grey lighten-3">
         <a class="brand-logo" style="margin-left: 50px">URLBOOKS</a>
         <ul class="right hide-on-med-and-down">
-          <li class="active"><a href="sass.html">BOOKS</a></li>
-          <li><a href="badges.html">NEW</a></li>
+          <li class="active undragable"><a href="sass.html">BOOKS</a></li>
+          <li class="undragable"><a href="badges.html">NEW</a></li>
+          <li class="undragable"><a id="screen" onclick="return screen()">FULLSCREEN</a></li>
           <li style="margin-left: 20px; margin-right: 20px">|</li>
-          <li><a href="badges.html" style="margin-right: 30px">QUIT</a></li>
+          <li class="undragable"><a href="badges.html" style="margin-right: 30px">QUIT</a></li>
         </ul>
       </div>
     </nav>

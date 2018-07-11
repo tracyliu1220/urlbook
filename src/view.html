@@ -20,7 +20,7 @@
 <body>
 
   <!--navbar-->
-  <div class="container"><a href="#" data-target="nav-mobile" class="top-nav sidenav-trigger waves-effect waves-light circle hide-on-large-only"><i class="material-icons">menu</i></a></div>
+  <div class="container">
     <ul id="nav-mobile" class="sidenav sidenav-fixed">
       <li class="bold" style="margin-top: 10px; margin-left: 5px">
         <div class="card-action button-container" style="padding-right: 0px;">
@@ -31,9 +31,9 @@
         </div>
       </li>
       <script>
-        document.write('<li class="bold"><div class="title" style="background-color: #'+color+'">'+current_book.title+'</div></li>')
+        document.write('<li class="bold dragable"><div class="title" style="background-color: #'+color+'">'+current_book.title+'</div></li>')
       </script>
-      <li class="bold"><div>　</div></li>
+      <li class="bold dragable"><div>　</div></li>
       <script src="view_navbar.js"></script>
     </ul>
   </div>

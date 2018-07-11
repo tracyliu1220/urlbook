@@ -16,3 +16,7 @@
   width: 100%;
   font-size: 300%;
 }
+
+.dragable{
+  -webkit-app-region: drag;
+}

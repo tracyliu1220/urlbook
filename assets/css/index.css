@@ -29,3 +29,11 @@
   height: 85%;
   font-size: large;
 }
+
+.dragable{
+  -webkit-app-region: drag;
+}
+
+.undragable{
+  -webkit-app-region: no-drag;
+}
