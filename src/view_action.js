@@ -1,6 +1,3 @@
-const path = require('path')
-const remote = electron.remote
-
 function clickbar_chap (target) {
   //clear previous active
   if(active_chap != -1){
@@ -37,4 +34,17 @@ function clickbar_subchap (target_chap, target_subchap) {
   active_subchap_subchap = target_subchap
   var iframe = document.getElementById('iframe')
   iframe.src = current_book.chaps[target_chap].subchaps[target_subchap].link
+}
+
+function back(){
+  var window = remote.getCurrentWindow();
+  window.close();
+}
+
+function screen() {
+  var window = remote.getCurrentWindow();
+  if(window.isMaximized())
+    window.unmaximize();
+  else
+    window.maximize();
 }

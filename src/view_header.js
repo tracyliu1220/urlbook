@@ -1,4 +1,6 @@
 const electron = require('electron')
+const path = require('path')
+const remote = electron.remote
 
 var fs = require('fs')
 var user_data = fs.readFileSync('data/user.json', 'utf-8')
