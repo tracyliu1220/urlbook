@@ -1,0 +1,18 @@
+.books-flexbox-container {
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.book-margin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 500px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}

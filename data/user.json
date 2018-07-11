@@ -2,7 +2,7 @@
   "user": {
     "name": "Tracy Liu",
     "books": [{
-      "title": "book 1",
+      "title": "Book 1",
       "color": "#33A6B8",
       "chaps": [{
         "title": "urlbook",
@@ -34,7 +34,7 @@
           }]
       }]
     },{
-      "title": "book 2",
+      "title": "Book 2",
       "color": "#78C2C4",
       "chaps": [{
         "title": "chap 3",
