@@ -1,6 +1,8 @@
 function onclick_view(book_index) {
   const bookPath = path.join('file://', __dirname, 'view.html')
-  fs.writeFileSync('data/current.json', '{\n\t"book_index": '+book_index+'\n}')
+  var current_data = JSON.parse(fs.readFileSync('data/current.json'))
+  current_data.book_index = book_index
+  fs.writeFileSync('data/current.json', JSON.stringify(current_data))
   let win = new BrowserWindow({frame: false,
                                width: 1200,
                                height: 600,

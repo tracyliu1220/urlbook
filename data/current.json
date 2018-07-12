@@ -1,3 +1,15 @@
 {
-	"book_index": 0
+	"book_index":1,
+	"create": {
+		"title": "",
+		"description": "",
+		"color": "",
+		"chaps": [{
+			"title": "",
+			"subchaps": [{
+			"title": "",
+			"link": ""
+			}]
+		}]
+	}
 }
